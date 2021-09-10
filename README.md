@@ -1,7 +1,7 @@
 # CRA-Boiler Plate
 
-## CRA
-## Airbnb eslint config
-## redux
-## typescript
-## husky
+#### CRA
+#### Airbnb eslint config
+#### redux
+#### typescript
+#### husky
