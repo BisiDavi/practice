@@ -1,18 +1,23 @@
 [
   {
     "path": "/",
-    "component": "Home"
+    "component": "Home",
+    "title": "Home",
+    "exact": true
   },
-	{
-		"path":"/create-address-book",
-		"component":"CreateAddressBook"
-	},
-	{
-		"path":"/edit-address-book",
-		"component":"EditAddressBook"
-	},
-	{
-		"path":"delete-address-book",
-		"component":"DeleteAddressBook"
-	}
+  {
+    "path": "/create-address-book",
+    "component": "CreateAddressBook",
+    "title": "Create Address Book"
+  },
+  {
+    "path": "/edit-address-book",
+    "component": "EditAddressBook",
+    "title": "Edit Address Book"
+  },
+  {
+    "path": "delete-address-book",
+    "component": "DeleteAddressBook",
+    "title": "Delete Address Book"
+  }
 ]

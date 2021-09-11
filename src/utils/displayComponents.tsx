@@ -1,7 +1,7 @@
-import Home from '@pages/Home';
-import CreateAddressBook from '@pages/CreateAddressBook';
-import EditAddressBook from '@pages/EditAddressBook';
-import DeleteAddressBook from '@pages/DeleteAddressBook';
+import Home from '../pages/Home';
+import CreateAddressBook from '../pages/CreateAddressBook';
+import EditAddressBook from '../pages/EditAddressBook';
+import DeleteAddressBook from '../pages/DeleteAddressBook';
 
 export default function displayComponents(
   component: string,
