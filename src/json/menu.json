@@ -16,7 +16,7 @@
     "title": "Edit Address Book"
   },
   {
-    "path": "delete-address-book",
+    "path": "/delete-address-book",
     "component": "DeleteAddressBook",
     "title": "Delete Address Book"
   }

@@ -8,9 +8,7 @@ export default function Navbar(): JSX.Element {
       <ul>
         {menuJson.map((menu) => (
           <li key={menu.path}>
-            <Link to={menu.path}>
-              {menu.title}
-            </Link>
+            <Link to={menu.path}>{menu.title}</Link>
           </li>
         ))}
       </ul>

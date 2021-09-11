@@ -11,10 +11,10 @@ export default function displayComponents(
       return <Home />;
     case 'CreateAddressBook':
       return <CreateAddressBook />;
-    case 'EditAddressBook':
-      return <EditAddressBook />;
     case 'DeleteAddressBook':
       return <DeleteAddressBook />;
+    case 'EditAddressBook':
+      return <EditAddressBook />;
     default:
       return null;
   }
