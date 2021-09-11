@@ -18,9 +18,10 @@
     },
     "ecmaVersion": 12,
     "project": "./tsconfig.json",
-    "sourceType": "module"
+    "sourceType": "module",
+    "tsconfigRootDir": "./"
   },
-  "plugins": ["react", "@typescript-eslint", "jsx-a11y"],
+  "plugins": ["react", "@typescript-eslint", "jsx-a11y", "import"],
   "rules": {
     "react/react-in-jsx-scope": "off",
     "import/extensions": "off",
@@ -30,7 +31,7 @@
     ],
     "@typescript-eslint/indent": [2, 2],
     "object-curly-newline": "off",
-    "import/no-unresolved": [2, { "commonjs": true, "amd": true }],
+    "import/no-unresolved": "off",
     "import/named": 2,
     "import/namespace": 2,
     "import/default": 2,
@@ -46,5 +47,10 @@
         "@typescript-eslint/explicit-module-boundary-types": ["error"]
       }
     }
-  ]
+  ],
+  "settings": {
+    "import/resolver": {
+      "typescript": {}
+    }
+  }
 }
