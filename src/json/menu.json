@@ -1,0 +1,18 @@
+[
+  {
+    "path": "/",
+    "component": "Home"
+  },
+	{
+		"path":"/create-address-book",
+		"component":"CreateAddressBook"
+	},
+	{
+		"path":"/edit-address-book",
+		"component":"EditAddressBook"
+	},
+	{
+		"path":"delete-address-book",
+		"component":"DeleteAddressBook"
+	}
+]
