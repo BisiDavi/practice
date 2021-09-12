@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import menuJson from '../json/menu.json';
+import menuJson from 'json/menu.json';
 
 export default function Navbar(): JSX.Element {
   return (

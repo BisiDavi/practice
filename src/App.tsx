@@ -1,4 +1,4 @@
-import Navigation from './Navigation';
+import Navigation from 'Navigation';
 import './App.css';
 
 export default function App(): JSX.Element {

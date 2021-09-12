@@ -1,0 +1,22 @@
+[
+  {
+    "name": "fullName",
+    "label": "Full Name",
+    "placeholder": "Your Full Name"
+  },
+  {
+    "name": "fullName",
+    "label": "Full Name",
+    "placeholder": "Your Full Name"
+  },
+  {
+    "name": "address",
+    "label": "Address",
+    "placeholder": "Your Home ddress"
+  },
+  {
+    "name": "phoneNumber",
+    "label": "Phone Number",
+    "placeholder": "Your Phone Number"
+  }
+]
